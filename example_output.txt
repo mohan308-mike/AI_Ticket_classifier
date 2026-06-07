@@ -1,0 +1,76 @@
+
+--------------------------------------------------
+ticket: users cannot login after new deployment.
+
+RAW OUTPUT:
+{
+    "category": "Authentication",
+    "priority": "high",
+    "summary": "Users cannot login after new deployment.",
+    "recommended_action": ""
+}
+valid output
+{
+    "category": "Authentication",
+    "priority": "high",
+    "summary": "Users cannot login after new deployment.",
+    "recommended_action": ""
+}
+
+--------------------------------------------------
+ticket: payment transactions are failing for all customers.
+
+RAW OUTPUT:
+{
+    "category": "Payment",
+    "priority": "high",
+    "summary": "All customer payment transactions are failing",
+    "recommended_action": "Investigate and resolve the issue ASAP to prevent revenue loss"
+invalid JSON
+
+--------------------------------------------------
+ticket: application response time exeeds 10 seconds.
+
+RAW OUTPUT:
+{
+    "category": "Performance",
+    "priority": "high",
+    "summary": "Application Response Time Exceeds 10 Seconds",
+    "recommended_action": "Optimize server configuration and consider caching data"
+}
+valid output
+{
+    "category": "Performance",
+    "priority": "high",
+    "summary": "Application Response Time Exceeds 10 Seconds",
+    "recommended_action": "Optimize server configuration and consider caching data"
+}
+
+--------------------------------------------------
+ticket: monitoring alert  CPU usage above 95% for 30 minutes.
+
+RAW OUTPUT:
+{
+    "category": "Monitoring",
+    "priority": "high",
+    "summary": "CPU usage above 95% for 30 minutes",
+    "recommended_action": " Investigate and take corrective action"
+}
+valid output
+{
+    "category": "Monitoring",
+    "priority": "high",
+    "summary": "CPU usage above 95% for 30 minutes",
+    "recommended_action": " Investigate and take corrective action"
+}
+
+--------------------------------------------------
+ticket: new employee cannot access internal systems.
+
+RAW OUTPUT:
+{
+    "category": "Access Control",
+    "priority": "high",
+    "summary": "New Employee Cannot Access Internal Systems",
+    "recommended_action": "Reset password and re-configure system access for new employee"
+invalid JSON
